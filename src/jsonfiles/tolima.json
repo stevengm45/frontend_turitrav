@@ -1,0 +1,23 @@
+[
+    {   "dpto": "Tolima",
+        "muni": "Ibagué",
+        "lugar": "El Rancho",
+        "categoria": "Montañismo",
+        "calificacion": "5.0",
+        "img": "/imgs/home/1.png"
+    },
+    {   "dpto": "Boyaca",
+        "muni": "Tunja",
+        "lugar": "El Cocuy",
+        "categoria": "Montañismo",
+        "calificacion": "5.0",
+        "img": "/imgs/home/3.png"
+    },
+    {   "dpto": "Tolima",
+        "muni": "Murillo",
+        "lugar": "Termales del Cañon",
+        "categoria": "Montañismo",
+        "calificacion": "5.0",
+        "img": "/imgs/home/2.png"
+    }
+]

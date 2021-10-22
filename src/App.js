@@ -8,20 +8,27 @@ import FuncFauna from './views/fauna';
 import FuncFlora from './views/flora';
 import FuncGastro from './views/gastro';
 import FuncCultura from './views/cultura';
+import NotFound from './views/notfound';
+import Tolima from './views/tolima';
+import Prueba from './views/prueba';
 
 
 function App() {
   return (
  
     <BrowserRouter>
+      <Switch>
       <Route exact path="/" component={PageWrapper} />
+      <Route exact path="/prueba" component={Prueba} />
       <Route excat path="/flora" component={FuncFlora} />
       <Route excat path="/fauna" component={FuncFauna} />
       <Route excat path="/culture" component={FuncCultura} />
       <Route excat path="/gastronomy" component={FuncGastro} />
       <Route excat path="/formlogin" component={FormLogIn} />
       <Route excat path="/formnewuser" component={FormNewUser} />
-
+      <Route exact path="/tolima" component={Tolima}/>
+      <Route component={NotFound}/>
+      </Switch>
     </BrowserRouter>
 
 
