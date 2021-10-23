@@ -26,11 +26,9 @@ body{
     width: 33px;
 }
 
-
-
 .cont2{
-    margin-top: 60px;
-    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .sm{
     width: 35px;
@@ -56,16 +54,13 @@ body{
     min-height: 100vh;
     background: url(../imgs/banner3.jpg!d) no-repeat center;
     background-size: cover;
-    
-
     padding: 0%;
     margin: 0%;
   }
 
-  .contform{
+.contform{
       flex-direction: column;
   }
-
 
 .header .navbar {
     background-color: transparent !important;
@@ -93,12 +88,7 @@ body{
        }
 
 .titulo{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    background-color: turquoise;
     margin: 30px 0px 0px 0px;
-    padding: 3% 0px 2% 0px;
-    font-size: 50px;
 }
 
 .banner0 {
@@ -229,4 +219,35 @@ ion-icon{
 }
 .descrip-animal{
     font-family: 'Poppins', sans-serif;
+}
+
+
+/* CSS LUGARES */
+
+.star{
+    display: flex;
+    justify-content: left;
+}
+.colstar{
+    margin: 0px 10px 0px 10px;
+}
+
+.imgmodule{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+.col{
+    
+}
+.col-7{
+    border-left: 5px rgb(174, 175, 175) solid;
+}
+.descrplace{
+
 }

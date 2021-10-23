@@ -1,7 +1,7 @@
 [
     {
-        "nombre": "Nariño",
-        "img": "/imgs/cultura/1.png"
+        "nombre": "Quindio",
+        "img": "/imgs/cultura/8.png"
     },
     {
         "nombre": "Antioquia",
@@ -24,11 +24,11 @@
         "img": "/imgs/cultura/6.png"
     },
     {
-        "nombre": "Quindio",
+        "nombre": "Risaralda",
         "img": "/imgs/cultura/7.png"
     },
     {
-        "nombre": "Valle del cauca",
-        "img": "/imgs/cultura/8.png"
+        "nombre": "Cundinamarca",
+        "img": "/imgs/cultura/1.png"
     }
 ]

@@ -1,7 +1,7 @@
 import React from "react";
-import HeaderPrueba from "./headertt";
-import FaunaTest from "./faunaprueba";
 import tolimaJson from '../jsonfiles/tolima.json'
+import MainHeader from "./headertt";
+import ModulePlaces from "./moduleplaces";
 
 
 function Tolima() {
@@ -11,14 +11,16 @@ function Tolima() {
 
     return (
         <div>
-            <HeaderPrueba />
+            <MainHeader />
             {lugares.map(places =>
-                <FaunaTest place={places.lugar}
+                <ModulePlaces place={places.lugar}
                     calificacion={places.calificacion}
                     dpto={places.dpto}
                     mun={places.muni}
                     categoria={places.categoria}
-                    img={places.img} />
+                    img={places.img}
+                    img2={places.img2}
+                    descrip={places.descripcion} />
             )}
         </div>
     )

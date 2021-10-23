@@ -15,8 +15,22 @@ function PageWrapper() {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Descubre</a>
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Descubre
+                  </a>
+                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a className="dropdown-item" href="/antioquia"><img className="iconuser" src="imgs/icons/brujula.png" />Antioquia</a></li>
+                    <li><a className="dropdown-item" href="/boyaca"><img className="iconuser" src="imgs/icons/brujula.png" />Boyacá</a></li>
+                    <li><a className="dropdown-item" href="/caldas"><img className="iconuser" src="imgs/icons/brujula.png" />Caldas</a></li>
+                    <li><a className="dropdown-item" href="/cundinamarca"><img className="iconuser" src="imgs/icons/brujula.png" />Cundinamarca</a></li>
+                    <li><a className="dropdown-item" href="/huila"><img className="iconuser" src="imgs/icons/brujula.png" />Huila</a></li>
+                    <li><a className="dropdown-item" href="/nortesantander"><img className="iconuser" src="imgs/icons/brujula.png" />Norte de Santander</a></li>
+                    <li><a className="dropdown-item" href="/quindio"><img className="iconuser" src="imgs/icons/brujula.png" />Quindio</a></li>
+                    <li><a className="dropdown-item" href="/risaralda"><img className="iconuser" src="imgs/icons/brujula.png" />Risaralda</a></li>
+                    <li><a className="dropdown-item" href="/santander"><img className="iconuser" src="imgs/icons/brujula.png" />Santander</a></li>
+                    <li><a className="dropdown-item" href="/tolima"><img className="iconuser" src="imgs/icons/brujula.png" />Tolima</a></li>
+                  </ul>
                 </li>
 
                 <li className="nav-item dropdown">
@@ -68,7 +82,8 @@ function PageWrapper() {
 
 
       <div className="titulo">
-        <p><b>Descubre las maravillas de COLOMBIA</b></p>
+        <img src="imgs/places/2.png" />
+
       </div>
       <div>
         <img className="banner0" src="imgs/banner0.png" />
@@ -148,8 +163,9 @@ function PageWrapper() {
 
             <div class="col-md-4">
               <div >
-                <img class="img-place" src="imgs/home/3.png" alt="cocuy" />
-
+                <a href="/tolima">
+                  <img class="img-place" src="imgs/home/3.png" alt="cocuy" />
+                </a>
               </div>
             </div>
           </div>
