@@ -140,7 +140,7 @@ function PageWrapper() {
       </div>
 
       <div>
-        <img className="banner0" src="imgs/bannerpost.png" />
+        <a href="alojador"> <img className="banner0" src="imgs/bannerpost.png" /></a>
       </div>
 
       <div className="cont2">

@@ -11,6 +11,19 @@ import FuncCultura from './views/cultura';
 import NotFound from './views/notfound';
 import Tolima from './views/tolima';
 import Prueba from './views/prueba';
+import FuncAlojador from './views/alojador';
+import ModuleAlojamiento from './views/modulealojamiento';
+import FuncHospedajesCaldas from './alojamientos/hcaldas';
+import FuncHospedajesQuindio from './alojamientos/hquindio';
+import FuncHospedajesRisaralda from './alojamientos/hrisaralda';
+import FuncHospedajesSantander from './alojamientos/hsantander';
+import FuncHospedajesTolima from './alojamientos/htolima';
+import FuncHospedajesAntioquia from './alojamientos/hantioquia';
+import FuncHospedajesCundinamarca from './alojamientos/hcundinamarca';
+import FuncHospedajesBoyaca from './alojamientos/hboyaca';
+import FuncHospedajesHuila from './alojamientos/hhuila';
+import FuncHospedajesNorteS from './alojamientos/hnortesantander';
+import FuncHospedajes from './views/alojamientos';
 
 
 function App() {
@@ -27,6 +40,19 @@ function App() {
       <Route excat path="/formlogin" component={FormLogIn} />
       <Route excat path="/formnewuser" component={FormNewUser} />
       <Route exact path="/tolima" component={Tolima}/>
+      <Route exact path="/alojador" component={FuncAlojador}/>
+      <Route exact path="/alojamiento" component={FuncHospedajes}/>
+
+      <Route exact path="/hantioquia" component={FuncHospedajesAntioquia}/>
+      <Route exact path="/hboyaca" component={FuncHospedajesBoyaca}/>
+      <Route exact path="/hcaldas" component={FuncHospedajesCaldas}/>
+      <Route exact path="/hcundinamarca" component={FuncHospedajesCundinamarca}/>
+      <Route exact path="/hhuila" component={FuncHospedajesHuila}/>
+      <Route exact path="/hnortesantander" component={FuncHospedajesNorteS}/>
+      <Route exact path="/hquindio" component={FuncHospedajesQuindio}/>
+      <Route exact path="/hrisaralda" component={FuncHospedajesRisaralda}/>
+      <Route exact path="/hsantander" component={FuncHospedajesSantander}/>
+      <Route exact path="/htolima" component={FuncHospedajesTolima}/>
       <Route component={NotFound}/>
       </Switch>
     </BrowserRouter>
