@@ -305,3 +305,30 @@ text-align: left;
 .sobra{
     background-color: rgb(30, 30, 79);
 }
+
+.lodgment{
+    margin: 10px;
+    border: solid 3px #a5a5a5;
+    border-radius: 15px;
+}
+.cont3{
+    margin-top: 50px;
+    justify-content: center;
+}
+.row-hos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+}
+
+/* .row-lodgment{
+    margin: 10px;
+} */
+
+.sonlodgment{
+    margin: 10px;
+}
