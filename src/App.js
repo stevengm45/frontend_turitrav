@@ -25,6 +25,13 @@ import FuncHospedajesNorteS from './alojamientos/hnortesantander';
 import FuncHospedajes from './alojamientos/alojamiento';
 import PlaceSantander from './views/places/santander';
 import PlaceAntioquia from './views/places/antioquia';
+import PlaceBoyaca from './views/places/boyaca';
+import PlaceCundinamarca from './views/places/cundinamarca';
+import PlaceCaldas from './views/places/caldas';
+import PlaceHuila from './views/places/huila';
+import PlaceNorteSantander from './views/places/nortesantander';
+import PlaceRisaralda from './views/places/risaralda';
+import PlaceQuindio from './views/places/quindio';
 
 
 function App() {
@@ -56,6 +63,13 @@ function App() {
       <Route exact path="/htolima" component={FuncHospedajesTolima}/>
       
       <Route exact path="/antioquia" component={PlaceAntioquia}/>
+      <Route exact path="/boyaca" component={PlaceBoyaca}/>
+      <Route exact path="/cundinamarca" component={PlaceCundinamarca}/>
+      <Route exact path="/caldas" component={PlaceCaldas}/>
+      <Route exact path="/huila" component={PlaceHuila}/>
+      <Route exact path="/nortesantander" component={PlaceNorteSantander}/>
+      <Route exact path="/risaralda" component={PlaceRisaralda}/>
+      <Route exact path="/quindio" component={PlaceQuindio}/>
       <Route exact path="/santander" component={PlaceSantander}/>
       <Route exact path="/tolima" component={Tolima}/>      
       
