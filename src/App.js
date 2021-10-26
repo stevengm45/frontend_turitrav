@@ -23,6 +23,8 @@ import FuncHospedajesBoyaca from './alojamientos/hboyaca';
 import FuncHospedajesHuila from './alojamientos/hhuila';
 import FuncHospedajesNorteS from './alojamientos/hnortesantander';
 import FuncHospedajes from './alojamientos/alojamiento';
+import PlaceSantander from './views/places/santander';
+import PlaceAntioquia from './views/places/antioquia';
 
 
 function App() {
@@ -38,7 +40,7 @@ function App() {
       <Route excat path="/gastronomy" component={FuncGastro} />
       <Route excat path="/formlogin" component={FormLogIn} />
       <Route excat path="/formnewuser" component={FormNewUser} />
-      <Route exact path="/tolima" component={Tolima}/>
+
       <Route exact path="/alojador" component={FuncAlojador}/>
       <Route exact path="/hotels" component={FuncHospedajes}/>
 
@@ -52,7 +54,13 @@ function App() {
       <Route exact path="/hrisaralda" component={FuncHospedajesRisaralda}/>
       <Route exact path="/hsantander" component={FuncHospedajesSantander}/>
       <Route exact path="/htolima" component={FuncHospedajesTolima}/>
+      
+      <Route exact path="/antioquia" component={PlaceAntioquia}/>
+      <Route exact path="/santander" component={PlaceSantander}/>
+      <Route exact path="/tolima" component={Tolima}/>      
+      
       <Route component={NotFound}/>
+
       </Switch>
     </BrowserRouter>
 
