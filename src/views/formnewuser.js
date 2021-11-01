@@ -163,7 +163,7 @@ function FormNewUser() {
                                         name="terminos"
                                         required
                                         onChange={handleChecked} />
-                                    <label htmlFor="terminos">Acepto terminos y condiciones  </label>
+                                    <label htmlFor="terminos">Acepto términos y condiciones.  </label>
                                     <br />
                                     <br />
                                     <input className="opcioncreate" type="submit" value="CREAR CUENTA" />

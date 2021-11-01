@@ -54,7 +54,7 @@ function PageWrapper() {
 
               </ul>
               <div>
-                <input className="round" type="search" placeholder="  Search" />
+                <input className="round" type="search" placeholder="  Buscar" />
 
               </div>
               <form className="d-flex">
@@ -80,9 +80,8 @@ function PageWrapper() {
         </nav>
       </header>
 
-
       <div className="titulo">
-        <img src="imgs/places/2.png" />
+        <img className="banner0" src="imgs/places/2.png" />
 
       </div>
 
