@@ -222,7 +222,7 @@ function PageWrapper() {
             <img className="img-turitraver" src="/imgs/home/6.png" />
           </div>
           <div className="col-lg-7">
-            <h5>Turitraver me ha permitido conocer maravillas de la naturaleza en nuestro país que no imagina que podía llegar a tener.</h5>
+            <h5>Turitrav me ha permitido conocer maravillas de la naturaleza en nuestro país que no imagina que podía llegar a tener.</h5>
           </div>
         </div>
         <div className="col-lg-5 row clients">
