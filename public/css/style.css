@@ -258,6 +258,11 @@ ion-icon{
     font-family: 'Poppins', sans-serif;
 }
 
+.descrip{
+    text-decoration: none;
+    color: black;
+}
+
 .img-new-user{
     border-radius: 15px;
 }
@@ -419,4 +424,38 @@ text-align: left;
 
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
+}
+
+
+/* Turitravers */
+
+.turitravers{
+    padding: 30px;
+}
+.turitravers h1{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.turitravers .clients{
+    margin: 0 18px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    
+}
+.clients .col-lg-7{
+    padding-right: 20px;
+    border-radius: 15px;
+}
+.clients .col-lg-4{
+    padding: 0px;
+    margin: 30px 0px 30px 30px;
+}
+
+.img-turitraver{
+    width: 150px;
+    border-radius: 50%;
+    border: white 5px solid;
+
 }

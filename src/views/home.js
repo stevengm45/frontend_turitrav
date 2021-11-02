@@ -5,7 +5,7 @@ function PageWrapper() {
   return (
     <div>
       <header className="header">
-        <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               <img className="logo" src="imgs/icons/icono.png" />
@@ -107,7 +107,9 @@ function PageWrapper() {
                   </a>
                 </div>
               </div>
-              <h3 class="descrip"><b>Fauna</b></h3>
+              <a className="descrip" href="/gastronomia">
+                <h3 className="descrip" ><b>Fauna</b></h3>
+              </a>
             </div>
 
             <div class="col-md-3">
@@ -119,7 +121,9 @@ function PageWrapper() {
                   </a>
                 </div>
               </div>
-              <h3 class="descrip"><b>Flora</b></h3>
+              <a className="descrip" href="/gastronomia">
+                <h3 className="descrip" ><b>Flora</b></h3>
+              </a>
             </div>
 
             <div class="col-md-3">
@@ -131,7 +135,9 @@ function PageWrapper() {
                   </a>
                 </div>
               </div>
-              <h3 class="descrip"><b>Cultura</b></h3>
+              <a className="descrip" href="/gastronomia">
+                <h3 className="descrip" ><b>Cultura</b></h3>
+              </a>
             </div>
 
             <div class="col-md-3">
@@ -143,7 +149,10 @@ function PageWrapper() {
                   </a>
                 </div>
               </div>
-              <h3 class="descrip"><b>Gastronomía</b></h3>
+              <a className="descrip" href="/gastronomia">
+                <h3 className="descrip" ><b>Gastronomía</b></h3>
+              </a>
+
             </div>
 
           </div>
@@ -200,6 +209,28 @@ function PageWrapper() {
               </div>
             </div>
 
+          </div>
+        </div>
+      </div>
+
+      <div className="row turitravers">
+        <div>
+        <h1><b>Turitravers</b></h1>
+        </div>
+        <div className="col-lg-5 row clients">
+          <div className="col-lg-4">
+            <img className="img-turitraver" src="/imgs/home/6.png" />
+          </div>
+          <div className="col-lg-7">
+            <h5>Turitraver me ha permitido conocer maravillas de la naturaleza en nuestro país que no imagina que podía llegar a tener.</h5>
+          </div>
+        </div>
+        <div className="col-lg-5 row clients">
+          <div className="col-lg-4">
+            <img className="img-turitraver" src="/imgs/home/5.png" />
+          </div>
+          <div className="col-lg-7">
+            <h5>Poder encontrar hermosos paisajes escondidos ha sido lo mejor gracias a turitrav.</h5>
           </div>
         </div>
       </div>
