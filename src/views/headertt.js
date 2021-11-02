@@ -6,7 +6,7 @@ function MainHeader() {
             <nav className="navbar sticky-top navbar-expand-lg fixed-top navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img className="logo" src="imgs/newturitravrm.png" />
+                        <img className="logo" src="imgs/icons/icono.png" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

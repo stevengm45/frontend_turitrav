@@ -44,7 +44,7 @@ function App() {
       <Route excat path="/flora" component={FuncFlora} />
       <Route excat path="/fauna" component={FuncFauna} />
       <Route excat path="/culture" component={FuncCultura} />
-      <Route excat path="/gastronomy" component={FuncGastro} />
+      <Route excat path="/gastronomia" component={FuncGastro} />
       <Route excat path="/formlogin" component={FormLogIn} />
       <Route excat path="/formnewuser" component={FormNewUser} />
 

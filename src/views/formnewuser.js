@@ -33,8 +33,7 @@ function FormNewUser() {
                 <div className="fcformnewuser">
                     <div className="subcontainer">
                         <div className="imgnewuser" >
-                            <img src="imgs/campista1.jpg" width="500px" />
-
+                            <img className="img-new-user" src="imgs/campista.jpg" width="500px" />
                         </div>
                     </div>
                     <div className="subcontainer">

@@ -8,7 +8,7 @@ body{
     background-color: turquoise;
 }
 .logo{
-    width: 150px;
+    width: 50px;
     margin-left: 100px;
     margin-top: 0px;
 }
@@ -31,10 +31,9 @@ body{
     transition: background-color 2s;
 }
 
-
 .cont2{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+
 }
 .sm{
     width: 35px;
@@ -51,12 +50,15 @@ body{
     border: white;
 }
 
+.img-place:hover{
+    background-color: blue;
+}
+
 .img-animal{
     border-radius: 50%;
 }
 
 .header {
-
     min-height: 100vh;
     background: url(../imgs/banner3.jpg!d) no-repeat center;
     background-size: cover;
@@ -71,6 +73,22 @@ body{
 .header .navbar{
     background-color: transparent !important;
   }
+.nav-link {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.textos-header{
+    display: flex;
+    flex-direction: column;
+    margin: 20% 0% 0 10%;
+}
+
+.textos-header p{
+    font-size: 400%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
 
 .sticky-top {
     position: -webkit-sticky;
@@ -240,6 +258,9 @@ ion-icon{
     font-family: 'Poppins', sans-serif;
 }
 
+.img-new-user{
+    border-radius: 15px;
+}
 
 /* CSS LUGARES */
 
@@ -262,6 +283,10 @@ ion-icon{
     margin: 2%;
 }
 
+.category{
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 
 .textohospedador{
@@ -273,7 +298,7 @@ ion-icon{
 .clickhospedador{
     padding: 15px 30px 15px 30px;
     border-radius: 30px;
-    border: black 2px solid;
+    border: #8ff111 2px solid;
     font-family: 'Poppins', sans-serif;
     background-color: #8ff111;
 }
@@ -348,4 +373,50 @@ text-align: left;
 
 .sonlodgment{
     margin: 10px;
+}
+
+
+
+
+
+/* PRUEBA */
+
+
+.imagen-port{
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(255, 255, 255, 0.534);
+    transition: transform .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hover-galeria img{
+    width: 80px;
+
+}
+
+.hover-galeria p{
+    
+
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
 }
