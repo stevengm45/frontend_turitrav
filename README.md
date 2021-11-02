@@ -1,4 +1,5 @@
-# <p align="left">  <img src="/public/imgs/newTuritrav.png" width="150"></p> 
+# <p align="center">  <img src="/public/imgs/newTuritrav.png" width="150"></p> 
+# Turitrav
 
 Tutitrav is a platform where you can find many eco-tourist places in different cities and towns of the Andean region in Colombia and also find hotels and accommodations near these beautiful places in the middle of nature.
 
