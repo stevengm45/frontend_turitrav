@@ -155,7 +155,7 @@ function FormNewUser() {
 
                                 </div>
 
-                                <div>
+                                <div className="new-user">
                                     <input
                                         type="checkbox"
                                         id="terminos"
@@ -165,7 +165,7 @@ function FormNewUser() {
                                     <label htmlFor="terminos">Acepto términos y condiciones.  </label>
                                     <br />
                                     <br />
-                                    <input className="opcioncreate" type="submit" value="CREAR CUENTA" />
+                                    <a href="/formnewuser"><button className="opcioncreate" type="submit">Crear cuenta</button></a>
                                 </div>
 
                             </div>

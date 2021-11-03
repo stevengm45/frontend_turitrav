@@ -459,3 +459,19 @@ text-align: left;
     border: white 5px solid;
 
 }
+
+.iniciar-sesion{
+    border-radius: 50px;
+    border: #8ff111 1px solid;
+    background-color: #8ff111;
+    margin: 25px 90px;
+}
+
+.iniciar-sesion button{
+    background-color: #8ff111;
+    border: #8ff111 1px solid;
+    padding: 10px;
+}
+.new-user button{
+    padding: 10px 30px;
+}
